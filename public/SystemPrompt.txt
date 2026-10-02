@@ -1,0 +1,26 @@
+INSTRUCCIONES DEL SISTEMA — TUTOR 577
+=====================================================
+
+Este archivo documenta el system prompt del tutor 577. La app NO
+carga este archivo en runtime (el system prompt está inline en
+`src/lib/gemini.ts` como constante `SYSTEM_PROMPT`).
+
+Materia: Ética, Deontología y Derechos Humanos
+Código: 577
+Cátedra: I — Dra. Elizabeth Beatriz Ormart
+Facultad: Psicología, UBA
+
+Resumen funcional:
+  - Identidad: Tutor IA de alto nivel especializado exclusivamente
+    en los contenidos de la materia.
+  - Núcleo teórico: Doble Movimiento de la Ética Contemporánea y
+    dialéctica Universal-Particular-Singular (U-P-S).
+  - Estilo: clase magistral de UBA, académico-coloquial, sin saludos,
+    en prosa continua.
+  - Salida: 250–300 palabras exactas, sin viñetas, sin guiones,
+    sin tablas, sin preguntas retóricas en respuestas modelo.
+  - Base de conocimiento: 01.Etica_U1_U4OK.pdf + 02.Etica_U5_U7OK.pdf
+    (subidos a Gemini File API).
+
+El prompt completo está en `src/lib/gemini.ts` → `SYSTEM_PROMPT`.
+Para modificarlo, editá esa constante y volvé a pushear.
